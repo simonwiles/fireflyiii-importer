@@ -1,0 +1,13 @@
+[project]
+name = "fireflyiii_importer"
+version = "0.1.0"
+description = "Import transactions to Firefly III"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "json5>=0.10.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "rich>=13.9.4",
+    "typer>=0.15.1",
+]
